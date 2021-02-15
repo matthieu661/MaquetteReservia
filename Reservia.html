@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf=8">
+            <!--Css-->
+            <link rel="stylesheet" href="Style/main.css">
+            <link rel="stylesheet" href="Style/header.css">
+            <!--Font Awesome-->
+            <script src="https://kit.fontawesome.com/4aa209d2d4.js" crossorigin="anonymous"></script>
+
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@410&display=swap" rel="stylesheet">
+            
+            <title>Reservia.com</title>
+        </head>
+
+        <body>
+            <header>
+                <!--Conteneur principal du header / version Mobile -->
+                <div id="MobileHeader">
+                    <!--sous conteneur 1M-->
+                    <div id="MobileHeader1">
+                        <!-- Logo reservia et lien "s'inscrire"-->
+                        <div id="TOP">
+                            <img id="Logo_reservia" src="image/Reservia@3x.png">
+                            <a id="Lien_inscription" href="#">S'inscrire</a>
+                        </div>
+                        <!-- Ancres "Hebergements" et "Activités"-->
+                        <div id="BOT">
+                            <a id="AncreHebergement" href="#linkH">Hébergements</a>
+                            <a id="AncreActivités" href="#linkA">Activités</a>
+                        </div> 
+                    </div>
+                    <!-- sous conteneur 2M-->
+                    <div id="MobileHeader2">
+                        <!--Titre et texte-->
+                        <div id="TitreHeader">
+                            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                            <p>En plein centre ville ou en pleine nature</p>
+                        </div>
+                    </div>
+                    <!--sous conteneur 3M-->
+                    <div id="MobileHeader3">
+                        <!--FORM : Input-->
+                        <form id="recherche" action="/DB_reservia.php">
+                            <label for="localiser">
+                                <!-- conteneur icon GPS-->
+                                <div id="gps"><i class="fas fa-map-marker-alt"></i></div>
+                            </label>
+                            <!--Input "search" / PlaceHolder-->
+                            <input type="search" id="localiser" name="localiser" placeholder="     Marseille, France">
+                            <!-- Boutton recherche-->
+                            <button id="Boutton_bleu"><span id="IconRecherche"><i class="fas fa-search"></i></span></button>
+                        </form>
+
+                    </div>
+                    <!--sous conteneur 4M-->
+                    <div id="MobileHeader4">
+                        <!--Conteneur du titre et de la box filtre-->
+                        <div id="FiltreHeader">
+                                <!--Titre "FILTRES"-->
+                                <div id="TitreFiltre"><p>Filtres</p></div>
+                                <!-- Les 4 FILTRES :: CLIQUABLE -->
+                                <div id="FiltresHeader">
+                                    <!--Conteneur bulle ronde avec icon / bulle ovale avec titre filtre ECONOMIQUE-->
+                                    <div class="Filtre1"><a href="#">
+                                        <!--conteneur bulle ronde et icone-->
+                                        <div class="bulle"><i class="fas fa-money-bill-wave"></i></div>
+                                        <!--conteneur bulle ovale avec titre-->
+                                        <div class="bulle2"> Economique</a></div>
+                                    </div>
+                                    <!--Conteneur bulle ronde avec icon / bulle ovale avec titre filtre FAMILIAL-->
+                                    <div class="Filtre1"><a href="#">
+                                        <!--conteneur bulle ronde et icone-->
+                                        <div class="bulle"><i class="fas fa-child"></i></div>
+                                        <!--conteneur bulle ovale avec titre-->
+                                        <div class="bulle2"> Familial</a></div>
+                                    </div> 
+                                    <!--Conteneur bulle ronde avec icon / bulle ovale avec titre filtre ROMANTIQUE-->     
+                                    <div class="Filtre1"><a href="#">
+                                        <!--conteneur bulle ronde et icone-->
+                                        <div class="bulle"><i class="fas fa-heart"></i></div> 
+                                        <!--conteneur bulle ovale avec titre-->
+                                        <div class="bulle2"> Romantique</a></div>
+                                    </div> <!--why-->
+                                    <!--Conteneur bulle ronde avec icon / bulle ovale avec titre filtre ANIMAUX-->
+                                    <div class="Filtre1"><a href="#">
+                                        <!--conteneur bulle ronde et icone-->
+                                        <div class="bulle"><i class="fas fa-dog"></i></div> 
+                                        <!--conteneur bulle ovale avec titre-->
+                                        <div class="bulle2"> Animaux autorisés</a></div>
+                                    </div>
+                                </div>          
+                        </div>
+                    </div>
+                    <!-- sous conteneur 5M-->
+                    <div id="MobileHeader5">
+                        <p><i class="fas fa-info-circle"></i></p>
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </div>    
+                <!--Conteneur principal du header / version Desktop-->
+                <div id="DesktopHeader">
+                    <!-- sous conteneur 1D-->
+                    <div id="DesktopHeader1"><!--contient : Logo "reservia, titre, phrase de description et barre de recherche-->
+                        <!--LOGO-->
+                        <img id="Logo_reservia" src="image/Reservia@3x.png">
+                        <!--TITRE-->
+                        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                        <!--TEXTE-->
+                        <p id="description">En plein centre ville ou en pleine nature</p>
+                        <!--BARRE DE RECHERCHE-->
+                        <form id="recherche" action="/DB_reservia.php">
+                            <label for="localiser">
+                                <div id="gps"><i class="fas fa-map-marker-alt"></i></div>
+                            </label>
+                            <input type="search" id="localiser" name="localiser" placeholder="     Marseille, France">
+                            <button id="Boutton_bleu"><span id="text">Rechercher</span></button>
+                        </form>
+                        
+                    </div>
+                    <!-- sous conteneur 2D-->
+                    <nav id="DesktopHeader2">
+                        <ul id="Menu"><!-- menu haut droite-->
+                            <li class="menu"><a id="MenuHebergements" class="Ancres" href="#linkH">Hébergements</a></li>
+                            <li class="menu"><a id="MenuActivites" class="Ancres" href="#LinkA">Activitées</a></li>
+                            <li class="menu"><a id="MenuInscription" class="Ancres Inscription" href="#">S'inscrire</a></li>
+                        </ul>                
+                    </nav>
+                </div>
+                <!--Conteneur FILTRES DESKTOP -->
+                <div id="DesktopFiltreHeader">
+                
+                    <div id="TitreFiltreD"><p>Filtres</p></div>
+                        <div id="FiltreHeaderD">
+                            <div class="Filtre1D"><a href="#">
+                                <div class="bulleD"><i class="fas fa-money-bill-wave"></i></div>
+                                <div class="bulle2D">Economique</a></div>
+                            </div>
+                            <div class="Filtre1D"><a href="#">
+                                <div class="bulleD"><i class="fas fa-child"></i></div>
+                                <div class="bulle2D">Familial</a></div>
+                            </div>      
+                            <div class="Filtre1D"><a href="#">
+                                <div class="bulleD"><i class="fas fa-heart"></i></div> 
+                                <div class="bulle2D">Romantique</a></div>
+                            </div>
+                            <div class="Filtre1D"><a href="#">
+                                <div class="bulleD"><i class="fas fa-dog"></i></div> 
+                                <div class="bulle2D">Animaux autorisés</a></div>
+                            </div>
+                        
+                            </div>  
+                        
+                    </div>
+                    
+            </div>
+            <div id="DesktopInfoHeader">
+                <p><i class="fas fa-info-circle"></i></p>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+                
+            </header>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <footer>
+
+            </footer>
+        </body>
+    </html>
