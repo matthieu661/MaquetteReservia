@@ -310,7 +310,7 @@
         margin-top: 0 !important;
     }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px), screen and (min-width: 300px) and (max-width: 1024px)
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px), screen and (min-width: 550px) and (max-width: 1024px)
 {
     #Cont_section1
     {
