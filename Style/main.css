@@ -3,7 +3,10 @@ body
 {
     font-family: 'Raleway', sans-serif;
 }
-
+a
+{
+    text-decoration: none;
+}
 /*GLOBAL (media) ----------------------------------------------------------------*/
 @media only screen and (max-device-width : 550px) 
 {
@@ -36,7 +39,7 @@ body
 {
     body
     {
-        width: 90%;
+        width: 95%;
         max-width: 1450px;
         height: auto;
         border: blue 1px solid;

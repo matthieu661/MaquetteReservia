@@ -16,10 +16,10 @@
     }
     #Global_section2
     {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 10px;
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        margin: 10px !important;
         /*border: 1px rgb(30, 56, 202) solid;*/
         height: 80%;
         width: auto;
@@ -149,7 +149,7 @@
         height: 450px;
         width: 310px;
         border-radius: 15px 15px;
-        margin: 20px;
+        margin: 15px;
         
     }
     .type1
