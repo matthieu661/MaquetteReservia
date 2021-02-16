@@ -10,7 +10,7 @@ body
     body
     {
         /*BOX*/
-        width: 95%;
+        width: 100%;
         height: auto;
         border: red 1px solid;
         /*MARGES*/
@@ -27,6 +27,8 @@ body
     {
         width: 95%;
         height: auto;
+        /*MARGES*/
+        margin: auto;
         border: green 1px solid;
     }
 }
@@ -35,11 +37,19 @@ body
     body
     {
         width: 90%;
+        max-width: 1450px;
         height: auto;
         border: blue 1px solid;
         margin-top: 10px;
-        margin: auto;
-        
+        margin: auto;  
+    }
+    p
+    {
+        margin: 0;
+    }
+    h3 
+    {
+        margin: 0;
     }
 }
 
