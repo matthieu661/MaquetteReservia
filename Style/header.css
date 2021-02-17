@@ -315,7 +315,7 @@
 
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1150px), screen and (min-width: 550px) and (max-width: 1150px)
+@media screen and (min-device-width: 768px) and (max-device-width: 1150px), screen and (min-width: 300px) and (max-width: 1150px)
 {
     #DesktopHeader, #DesktopFiltreHeader, #DesktopInfoHeader
     {
