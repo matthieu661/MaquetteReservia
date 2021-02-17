@@ -113,7 +113,7 @@
         
     }
 }
-@media screen and (min-width: 1025px), screen and (min-device-width: 768px) and (max-device-width: 1024px), screen and (min-width: 551px) and (max-width: 1024px)
+@media screen and (min-width: 1024px), screen and (min-device-width: 768px) and (max-device-width: 1150px), screen and (min-width: 551px) and (max-width: 1150px)
 {
     #Cont_section2S
     {
@@ -264,4 +264,118 @@
         height: 100%;
         width: 100%;
     }      
+}
+@media screen and ( min-width: 300px) and (max-width:  550px)
+{
+    #Cont_section2
+    {
+        display: none !important;
+    }
+    #Cont_section2S
+    {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #Cont_section2S h1
+    {
+        margin-left: 30px  !important;
+    }
+    #Global_section2
+    {
+        display: flex !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        margin: 10px !important;
+        /*border: 1px rgb(30, 56, 202) solid;*/
+        height: 80%;
+        width: auto;
+    }
+    .Grande_carte
+    {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        padding-bottom: 20px!important;
+        height: 200px!important;
+        width: auto!important;
+        border-radius: 40px 40px!important;
+        border: red 6px solid!important;
+        margin: 30px!important;
+        margin-bottom: 40px!important;
+        
+    }
+    .Image_carteA
+    {
+        height: 65%!important;
+        width: 100%!important;
+    }
+    .DescriptionA
+    {
+        
+        height: 30% !important;
+        width: 100% !important;
+        
+        
+    }
+    .DescriptionA h3
+    {
+        margin: 10px!important;
+        margin-top: 30px!important;
+        margin-left: 50px!important;
+    }
+    .b1
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/vieuxport.jpg) !important;
+        background-size: cover !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+    }
+    .b2
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/fortdepomegue.jpg) !important;
+        background-size:cover  !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+    }
+    .b3
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/ilesdufrioul.jpg) !important;
+        background-size:cover  !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+    }
+    .b4
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/parcnational.jpg) !important;
+        background-size:cover  !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+    }
+    .b5
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/notredame.jpg) !important;
+        background-size:cover  !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+    }
+    .b6
+    {
+        width:  100%!important;
+        height: 100%!important;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/parclongchamp.jpg) !important;
+        background-size:cover  !important;
+        border-top-left-radius: 40px 40px!important;
+        border-top-right-radius: 40px 40px!important;
+        
+    }
 }
