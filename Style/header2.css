@@ -1,0 +1,169 @@
+
+/*## HEADER TOP ##*/
+/*             BOX                                     SMARTPHONE HEADER TOPBOX  */
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #DesktopHeader, #DesktopFiltreHeader, #DesktopInfoHeader
+    {
+        display: none;
+    }
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 600px)
+{
+    #DesktopHeader, #DesktopFiltreHeader, #DesktopInfoHeader
+    {
+        display: none;
+    }
+}
+#MobileHeader
+{
+    /*BOX*/
+    width: 100%;
+    height: auto;
+    Border: red 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+#MobileHeader1
+{
+    /*BOX*/
+    width: 100%;
+    height: auto;
+    border: green 1px solid;
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #MobileHeader1
+    {
+    /*POLICE*/
+    font-size: 3em;
+    font-weight: 600;
+    } 
+    
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 600px)
+{
+    #MobileHeader1
+    {
+    /*POLICE*/
+    font-size: 1.5em;
+    Font-weight: 600; 
+    }
+}    
+#TOP
+{
+    /*BOX*/
+    display: flex;
+    width: 100%;
+    justify-content: space-between !important;
+    align-items: center;
+    
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #TOP
+    {
+    /*MARGES*/
+    margin: 25px;
+    margin-left: 0px !important;
+    }
+}
+#Logo_reservia
+{
+    /*BOX*/
+    border: red 1px solid;
+    width: 200px  !important;
+    margin-left: 30px;
+}
+#Lien_inscription
+{
+    /*BOX*/
+    border: red 1px solid;
+    margin-right: 30px;
+    /*POLICES*/
+    font-size: 1.1em !important;
+        
+}
+#BOT
+{
+    /*BOX*/
+    display: flex;
+    width: 100%; 
+    
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #BOT
+    {
+        /*BOX*/
+        height: 90px !important;
+        /*MARGES*/
+        margin-top: 30px;
+    }
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 600px)
+{
+    #BOT
+    {
+        /*BOX*/
+        height: 50px !important;
+        /*MARGES*/
+        margin-top: 20px;
+    }
+}
+#AncreHebergement
+{
+    /*BOX*/
+    border: red 1px solid;
+    width: 50%;            
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #AncreHebergement
+    {
+        /*MARGES*/
+        padding-left: 10% ;
+        padding-right: 10%;
+        padding-top: 5px; 
+    }
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 600px)
+{
+    #AncreHebergement
+    {
+        /*MARGES*/
+        padding-left: 15% ;
+        padding-right: 15%;
+        padding-top: 5px;
+        /*POLICES*/
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+}
+#AncreActivités
+{
+    /*BOX*/
+    border: red 1px solid;
+    width: 50% !important;       
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #AncreActivités
+    {
+        /*MARGES*/
+        padding-left: 20% !important;
+        padding-top: 5px; 
+    }
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 600px)
+{
+    #AncreActivités
+    {
+        /*MARGES*/
+        padding-left: 15%;
+        padding-top: 5px;  
+        /*POLICES*/
+        font-size: 1.2em;
+        font-weight: 600;  
+    }
+}
