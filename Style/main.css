@@ -24,18 +24,18 @@ a
 
     }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 768px) and (max-device-width: 1150px)
 {
     body
     {
-        width: 95%;
+        width: 98%;
         height: auto;
         /*MARGES*/
         margin: auto;
         border: green 1px solid;
     }
 }
-@media screen and (min-width: 1025px)
+@media screen and (min-width: 1150px)
 {
     body
     {

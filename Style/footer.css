@@ -76,7 +76,13 @@
     }
     .c2
     {
-        padding-right: 13%;
+        padding-right: 17%;
+    }
+    .c3
+    {
+        margin-right: 30px;
+        margin-left: 0;
+        width: auto;
     }
     .pied
     {

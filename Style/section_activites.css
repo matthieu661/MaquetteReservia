@@ -61,8 +61,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/vieuxport.jpg) !important;
+        background-size: cover !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
     }
@@ -70,8 +70,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/fortdepomegue.jpg) !important;
+        background-size:cover  !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
     }
@@ -79,8 +79,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/ilesdufrioul.jpg) !important;
+        background-size:cover  !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
     }
@@ -88,8 +88,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/parcnational.jpg) !important;
+        background-size:cover  !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
     }
@@ -97,8 +97,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/notredame.jpg) !important;
+        background-size:cover  !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
     }
@@ -106,8 +106,8 @@
     {
         width:  100%!important;
         height: 100%!important;
-        background-image: url(/C:/Users/matth/Desktop/Projet2/images/activites/activites1.jpg);
-        background-size: cover;
+        background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/activites/4_small/parclongchamp.jpg) !important;
+        background-size:cover  !important;
         border-top-left-radius: 40px 40px!important;
         border-top-right-radius: 40px 40px!important;
         
@@ -139,7 +139,7 @@
     }
     #Cont_section2 h1
     {
-        padding: 15px;
+        padding: 45px;
     }
     .Grande_carte
     {
