@@ -11,7 +11,7 @@ a
     text-decoration: none;
 }
 /*GLOBAL (media) ----------------------------------------------------------------*/
-@media only screen and (max-device-width : 550px) 
+@media only screen and (max-device-width : 600px) 
 {
     body
     {
@@ -23,6 +23,7 @@ a
         margin: auto;
     }
 }
+
 @media screen and (min-device-width: 600px) and (max-device-width: 1150px)
 {
     body
