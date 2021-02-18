@@ -73,7 +73,7 @@
     /*BOX*/
     border: red 1px solid;
     width: 200px;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
 {
@@ -605,7 +605,7 @@
             border: red 1px solid;
             display: flex;
             /* MARGES */
-            margin: 30px;
+            margin: 0px;
             /* POLICES */
             font-size: 1em;
         }
@@ -618,13 +618,20 @@
         #DesktopHeader1 h1
         {
             /* POLICES */
-            font-size: 1.5em;
+            font-size: 1.6em;
+            font-weight: 900;
+            padding-top: 20px;
+        }
+        #DesktopHeader1 p
+        {
+            font-size: 1.2em;
+            margin-top: -5px;
         }
         #Logo_reservia
         {
             /*BOX*/
             border: red 1px solid;
-            width: 140px;
+            width: 120px;
         }
         /* ############### BARRE DE RECHERCHE ################ */
         #recherche
@@ -636,7 +643,7 @@
             height: 70px;
             align-items: center;
             /* MARGES */
-            margin-top: 10px;
+            margin-top: 20px;
             margin-bottom: 10px;
         
         }   
@@ -647,8 +654,10 @@
             height: 60px;
             width: 150px;
             border: #0065fc ;
-            border-top-right-radius: 15px 15px;
-            border-bottom-right-radius: 15px 15px;
+            border-top-right-radius: 20px 20px;
+            border-bottom-right-radius: 20px 20px;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
             /* MARGES */
             padding: 10px;
         
@@ -664,7 +673,7 @@
             align-items: center;
             justify-content: center;
             /* POLICES */
-            font-size: 1.2em;
+            font-size: 1.4em;
         
         }   
         #gps
@@ -674,7 +683,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 55px;
+            width: 60px;
             height: 60px;
             border-bottom-left-radius: 15px 15px;
             border-top-left-radius: 15px 15px;
@@ -693,15 +702,15 @@
             background-color: #ffffff;
             border: #f2f2f2 2px solid;
             height: 60px;
-            width: 280px;
+            width: 300px;
         
         }
         ::placeholder
         {
             /*POLICES*/
             color: black;
-            font-weight: 600;
-            font-size: 1.3em;
+            font-weight: 800;
+            font-size: 1.5em;
         }
         /* ############### FIN BARRE DE RECHERCHE ############ */
     
@@ -714,36 +723,36 @@
             border: red 1px solid;
             display: flex;
             margin-right: 25px;
-    
             width: 45%;   
-            height: 50%; 
+            height: 200px; 
         }
         #Menu
         {
             /*BOX*/
             display: flex;
             justify-content: space-around;
-            align-items: center;
-            height: 100%;
+            height: 100px;
             width: 100%;
             list-style: none;
-            padding: 5px;
+            margin: 0px;
             
             
+        }
+        .menu
+        {
+            height: 100px;
+            width: auto;
+            margin-top: 0px;
+            align-items: flex-end;
         }
         .Ancres
-        {
-            /*BOX*/
-            border: red 1px solid;
-            margin: 20px;
-            margin-left: 10PX;
-            padding-top: 18px;
-            width: auto;
-            height: 100%;
-    
+        {   
+            display: flex;
+            margin-top: 30px;
+            font-size: 1.2em;
         }
         
-        .Ancres:hover
+        .menu:hover
         {
             border-top: #0065FC 3px solid;
             
@@ -758,6 +767,7 @@
         {
             color: #0065FC;
             font-weight: 800;
+            margin-right: 10%;
         }
         /* FIN ANCRES / PARTIE HAUTE DROITE ###############################################*/
     
@@ -768,10 +778,11 @@
             /*BOX*/
             display: flex;
             width: 80%;
-            height:40px;
+            height:60px;
             border: springgreen 1px solid;
             /*MARGES*/
-            margin-left: 30px;
+            margin-left: 0px;
+            margin-top: 25px;
     
     
         }
@@ -802,7 +813,7 @@
         #TitreFiltreD p
         {
             /*POLICES*/
-            font-size: 1.2em;
+            font-size: 1.4em;
             font-weight: 800;
             
         }
@@ -822,7 +833,7 @@
             height: auto;
             border: 2px #e9e9e9 solid;
             /*MARGES*/
-            margin-right: 30px;
+            margin-right: 35px;
             
             
             /*STYLE*/
@@ -842,8 +853,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 12px;
-            height: 12px;
+            width: 30px;
+            height: 30px;
             border:3px solid #deebff;
             /*STYLE*/
             border-radius:50%;
@@ -862,7 +873,7 @@
             padding-left: 12px;
             padding-right: 12px;
             /*POLICES*/
-            font-size: 1.2em;
+            font-size: 1.4em;
             font-weight: 600;
            
         }
@@ -872,7 +883,7 @@
     
             /*POLICES*/
             color: #0065fc;
-            font-size: 1.1em;
+            font-size: 1.4em !important;
         }
         #DesktopInfoHeader
         {
@@ -883,7 +894,7 @@
             display: flex;
             align-items: center;
             /* MARGES */
-            margin-left: 30px;
+            margin-left: 0px;
             margin-top: 30px;
         }
         
