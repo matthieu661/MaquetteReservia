@@ -72,6 +72,12 @@
         width: 100%;
         height: auto ;
         background-color: white;
+        border-radius: 0;
+    }
+    #Sous_cont1_section1 h1
+    {
+        margin-top: 5px;
+        margin-left: -35px;
     }
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
@@ -242,11 +248,29 @@
 .Notation
 {
     /*border: 1px blue solid;*/
-    height: 35%;
+    height: 39%;
     width: 95%;
     padding-left: 8px;
     padding-top: 2px;
     font-size: 0.9em;
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    .Notation
+    {
+        padding-left: 15px;
+    }
+    .Notation h3 
+    {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .Notation p 
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
 }
 .fa-star
 {
@@ -256,7 +280,7 @@
 {
      /*border: 1px blue solid;*/
     height: auto;
-    width: 15%;
+    
     margin-left: 60px;
     font-weight: 700;
     font-size: 1.2em;
@@ -268,14 +292,11 @@
     #troll
     {
          /*border: 1px blue solid;*/
-        height: auto;
-        width: 30% !important;
-        margin-left: -150px;
+        margin-left: -165px;
+        padding-bottom: 0;
+        height: 50px;
         font-weight: 700;
-        font-size: 1.2em;
-        padding-top: 30px;
-        padding-bottom: 20px;
-        
+        font-size: 1.1em;    
     }
 }
     /*-------------------------------------------ASIDE----------------------------------------*/
@@ -294,7 +315,8 @@
         /*border: 2px green solid;*/ 
         width: 100%;
         height: 100%;
-        padding-top: 20px; 
+        padding-top: 10px;
+        border-radius: 0; 
     }
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
@@ -332,6 +354,14 @@
     padding: 0;
     margin: 15px;
 }
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    #Cont1_aside
+    {
+        margin: 10px;
+        margin-bottom: 5px;
+    }
+}
 #Cont1_aside h1
 {
     /*border: 1px red solid;*/
@@ -360,7 +390,7 @@
     {
         align-self: center;
         padding-right: 15px;
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
 }
@@ -450,9 +480,10 @@
     {
         display: flex;
         flex-direction: row;
-        margin :0px;
+        padding: 0;
+        margin :6px;
         width: 330px;
-        height: 120px;
+        height: 145px;
     }
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
@@ -479,15 +510,23 @@
 
 .AsideCarteImage
 {
-        width: 45% ;
-        height: 90%;
-        margin-top: 10px;
-        margin-left: 0px ;
-        border: green 2px solid;
-        background-size: cover !important;
-        border-top-left-radius: 20px 20px;
-        border-bottom-left-radius: 20px 20px;
+    width: 40% ;
+    height: 90%;
+    margin-top: 10px;
+    margin-left: 0px ;
+    border: green 2px solid;
+    background-size: cover !important;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
     
+}
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    .AsideCarteImage
+    {
+        width: 45% ;
+        margin: 5px;
+    }
 }
 .a7
 {
@@ -512,12 +551,27 @@
     {
         display: flex !important;
         flex-direction: column !important;
-        width: 55% !important;
+        width: 50% !important;
         height: 95% !important;
-        padding-left: 40px !important;
+        padding-left: 20px ;
         margin-right: 30px !important;
     }
-
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    .AsideCarteNotation
+    {
+        padding-left: 10px ;
+    }
+    .AsideCarteNotation p 
+    {
+        margin-top: 3px;
+        margin-bottom: 25px;
+    }
+    .AsideCarteNotation h3 
+    {
+        margin-bottom: 3px;
+    }
+}
 
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
 {}
