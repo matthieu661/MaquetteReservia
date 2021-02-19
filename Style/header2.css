@@ -91,6 +91,7 @@
     /*POLICES*/
     font-size: 1em !important;
     font-weight: 800;
+    color: #0065FC;
         
 }
 #BOT
@@ -124,7 +125,8 @@
 {
     /*BOX*/
     /*border: red 1px solid;*/
-    width: 50%;            
+    width: 50%;
+    color: #0065FC  ;          
 }
 @media screen and (max-width: 600px)
 {
@@ -221,7 +223,7 @@
     width: 100%;
     height: 80px;
 }
-#recherche
+.recherche
 {
     /*BOX*/
     /*border: red 1px solid;*/
@@ -232,15 +234,15 @@
     /*MARGES*/
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 15px;
+    margin-left: 0px;
     margin-right: 15px;     
 }
-#gps
+.gps
 {   
     /* BOX */
     display: flex;
     background-color: #f2f2f2b2;
-    /*border: red 1px solid;*/
+    border: #f2f2f2b2 1px solid;
     align-items: center;
     justify-content: center;
     border-bottom-left-radius: 20px 20px;
@@ -248,10 +250,21 @@
     
         
 }
+@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+{
+    .gps
+    {
+        width: 50px !important;
+        height: 50px !important;
+        margin-left:15px ;
+        border-bottom-left-radius: 15px 15px;
+        border-top-left-radius: 15px 15px;
+    }
+}
 
 @media screen and (min-width: 601px) and (max-width: 1150px)
 {
-    #gps
+    .gps
     {
         width: 60px !important;
         height: 60px !important;
@@ -276,7 +289,7 @@
         font-size: 1.3em;
     }
 }
-#localiser
+.localiser
 {
     /*BOX*/
     background-color: #ffffff;
@@ -288,7 +301,7 @@
 }
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
 {
-    #localiser
+    .localiser
     {
         height: 52px ;
         width: 70% ;
@@ -296,7 +309,7 @@
 }
 @media screen and (min-width: 601px) and (max-width: 1150px)
 {
-    #localiser
+    .localiser
     {
         height: 60px !important;
         width: 70% !important;
@@ -326,7 +339,7 @@
     }
 }
 
-#Boutton_bleu
+.Boutton_bleu
 {
     /*BOX*/
     background-color: #0065fc;
@@ -341,7 +354,7 @@
 }
 @media screen and (max-width: 600px)
 {
-    #Boutton_bleu
+    .Boutton_bleu
     {
         height: 52px;
         width: 52px;
@@ -349,7 +362,7 @@
 }
 @media screen and (min-width: 601px) and (max-width: 1150px)
 {
-    #Boutton_bleu
+    .Boutton_bleu
     {
         height: 60px;
         width: 60px;
@@ -639,6 +652,7 @@
             display: flex;
             /* MARGES */
             margin: 0px;
+            margin-left: 15px;
             /* POLICES */
             font-size: 1em;
         }
@@ -660,14 +674,14 @@
             font-size: 1.2em;
             margin-top: -5px;
         }
-        #Logo_reservia
+        .Logo_reservia
         {
             /*BOX*/
             /*border: red 1px solid;*/
             width: 120px;
         }
         /* ############### BARRE DE RECHERCHE ################ */
-        #recherche
+        .recherche
         {
             /*BOX*/
             /*border: 1px red solid;*/
@@ -680,7 +694,7 @@
             margin-bottom: 10px;
         
         }   
-        #Boutton_bleu
+        .Boutton_bleu
         {
             /*BOX*/
             background-color: #0065fc;
@@ -709,7 +723,7 @@
             font-size: 1.4em;
         
         }   
-        #gps
+        .gps
         {   
             /*BOX*/
             background-color: #f2f2f2b2;
@@ -729,7 +743,7 @@
             color: rgb(0, 0, 3);
             font-size: 1.2em;
         }
-        #localiser
+        .localiser
         {
             /*BOX*/
             background-color: #ffffff;
@@ -814,7 +828,7 @@
             height:60px;
             /*border: red 1px solid;*/
             /*MARGES*/
-            margin-left: 0px;
+            margin-left: 15px;
             margin-top: 25px;
     
     
@@ -943,7 +957,7 @@
             /*border: 1px red solid;*/
             height: 15%;
             width: auto;
-            margin-left: 8px;
+            margin-left: 15px;
             /*POLICES*/
             font-weight: 400;    
         }
