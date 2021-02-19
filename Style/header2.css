@@ -20,7 +20,7 @@
     /*BOX*/
     width: 100%;
     height: auto;
-    Border: red 1px solid;
+    /*border: red 1px solid;*/
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +29,7 @@
     /*BOX*/
     width: 100%;
     height: auto;
-    border: green 1px solid;
+    /*border: red 1px solid;*/
 }
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
 {
@@ -71,7 +71,7 @@
 #Logo_reservia
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     width: 200px;
     margin-left: 0px;
 }
@@ -86,7 +86,7 @@
 #Lien_inscription
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     margin-right: 20px;
     /*POLICES*/
     font-size: 1em !important;
@@ -123,7 +123,7 @@
 #AncreHebergement
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     width: 50%;            
 }
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
@@ -155,7 +155,7 @@
 #AncreActivités
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     width: 50% !important;       
 }
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
@@ -194,7 +194,7 @@
 #MobileHeader2
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     width: 85%;
     display: flex;
     margin-left: 15px;
@@ -224,7 +224,7 @@
 #recherche
 {
     /*BOX*/
-    border: 1px green solid;
+    /*border: red 1px solid;*/
     display: flex;
     width: 98%;
     height: 80px ;
@@ -240,7 +240,7 @@
     /* BOX */
     display: flex;
     background-color: #f2f2f2b2;
-    border: 1px red solid;
+    /*border: red 1px solid;*/
     align-items: center;
     justify-content: center;
     border-bottom-left-radius: 20px 20px;
@@ -636,7 +636,7 @@
             /*BOX*/
             width: auto;
             height: auto;
-            border: red 1px solid;
+            /*border: red 1px solid;*/
             display: flex;
             /* MARGES */
             margin: 0px;
@@ -646,7 +646,7 @@
         #DesktopHeader1
         {
             /*BOX*/
-            border: red 1px solid;
+            /*border: red 1px solid;*/
             width: 100%;
         }
         #DesktopHeader1 h1
@@ -664,7 +664,7 @@
         #Logo_reservia
         {
             /*BOX*/
-            border: red 1px solid;
+            /*border: red 1px solid;*/
             width: 120px;
         }
         /* ############### BARRE DE RECHERCHE ################ */
@@ -754,7 +754,7 @@
         #DesktopHeader2
         {
             /*BOX*/
-            border: red 1px solid;
+            /*border: red 1px solid;*/
             display: flex;
             margin-right: 25px;
             width: 45%;   
@@ -813,7 +813,7 @@
             display: flex;
             width: 80%;
             height:60px;
-            border: springgreen 1px solid;
+            /*border: red 1px solid;*/
             /*MARGES*/
             margin-left: 0px;
             margin-top: 25px;
@@ -827,7 +827,7 @@
             align-content: center;
             width: 95%;
             height: 40px;
-            border: 1px red solid;
+            /*border: red 1px solid;*/
             /*MARGES*/
             margin-left: 10px;
             margin-right: 30px;
@@ -922,7 +922,7 @@
         #DesktopInfoHeader
         {
             /*BOX*/
-            border: 1px red solid;
+            /*border: red 1px solid;*/
             height: auto;
             width: 95%;
             display: flex;
