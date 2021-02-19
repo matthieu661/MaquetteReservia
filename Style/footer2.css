@@ -7,7 +7,7 @@ footer
     margin-bottom: 30px;
          
 }
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     footer
     {
@@ -15,7 +15,7 @@ footer
         margin-top: 30px;
     }
 }
-@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px)
+@media screen and (min-width: 601px)
 {
     footer
     {
@@ -36,7 +36,7 @@ footer
 {
     align-content: center;    
 }
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .Titre_liste
     {
@@ -45,7 +45,7 @@ footer
     }
 }
 
-@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px)
+@media screen and (min-width: 601px)
 {
     .Titre_liste
     {
@@ -57,7 +57,7 @@ footer
 {
     padding-left: 0;   
 }
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .c1
     {
@@ -68,7 +68,7 @@ footer
 {
     margin-left: 18%;
 }
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .c2
     {
@@ -81,7 +81,7 @@ footer
     margin-left: 18%;
     width: auto;
 }
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
+@media screen and (max-width: 600px)
 {
     .c3
     {
