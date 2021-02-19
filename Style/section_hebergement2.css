@@ -223,7 +223,7 @@
 {
     width:  94%;
     height: 60%;
-    background-size: cover;
+    background-size: cover !important;
     border-top-left-radius: 20px 20px;
     border-top-right-radius: 20px 20px;
     padding: 5px;
@@ -234,23 +234,23 @@
 }
 .a2
 {
-    background: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/hotelduport.jpg) repeat-x;
+    background-image: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/hotelduport.jpg);
 }
 .a3
 {
-    background: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/mouetteR.jpg) repeat-x;
+    background-image: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/hoteldesmouettes.jpg);
 }
 .a4
 {
-    background: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/mer.jpg) repeat-x;
+    background-image: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/hoteldelamer.jpg);
 }
 .a5
 {
-    background: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/Panier.jpg) repeat-x;
+    background-image: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/auberge.jpg);
 }
 .a6
 {
-    background: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/amina.jpg) repeat-x;
+    background-image: url(https://matthieu661.github.io/MaquetteReservia/image/hebergements/Chezamina.jpg);
 }
 .Notation
 {
