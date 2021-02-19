@@ -76,8 +76,9 @@
     }
     #Sous_cont1_section1 h1
     {
+        align-self: flex-start;
         margin-top: 5px;
-        margin-left: -35px;
+        margin-left: 30px;
     }
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
@@ -89,6 +90,12 @@
         min-width: 330px ;
         height: auto ;
         background-color: #f2f2f2b2;
+    }
+    #Sous_cont1_section1 h1
+    {
+        margin-top: 5px;
+        margin-left: 35px;
+        font-size: 1.8em;
     }
 }
 @media screen and (min-width: 1150px)
@@ -223,27 +230,27 @@
 }
 .a1
 {
-    background-image: url(/C:/Users/matth/Desktop/Projet2/images/cartes/cannebiere.jpg); 
+    background-image: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/cannebiere.jpg); 
 }
 .a2
 {
-    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/resizeport.jpg) repeat-x;
+    background: url(MaquetteP2/image/hebergements/hotelduport.jpg) repeat-x;
 }
 .a3
 {
-    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/mouetteR.jpg) repeat-x;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/mouetteR.jpg) repeat-x;
 }
 .a4
 {
-    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/mer.jpg) repeat-x;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/mer.jpg) repeat-x;
 }
 .a5
 {
-    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/Panier.jpg) repeat-x;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/Panier.jpg) repeat-x;
 }
 .a6
 {
-    background: url(/C:/Users/matth/Desktop/Projet2/images/cartes/amina.jpg) repeat-x;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/amina.jpg) repeat-x;
 }
 .Notation
 {
@@ -271,6 +278,23 @@
         margin-bottom: 5px;
     }
 
+}
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
+{
+    .Notation
+    {
+        padding-left: 15px;
+    }
+    .Notation h3 
+    {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .Notation p 
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 .fa-star
 {
@@ -448,9 +472,9 @@
     
     #Cont2_aside
     {
-        justify-content: center;
         flex-direction: row;
-        flex-wrap: wrap;
+        overflow-y: hidden;
+        overflow: scroll;
         margin-bottom: 20px;
     }
     
@@ -467,7 +491,6 @@
 {
     /*border: 1px red solid;*/
     display: flex;
-    flex-direction: row ;
     padding-left: 5px;
     margin: 10px ;
     flex-direction: row !important;
@@ -482,7 +505,7 @@
         flex-direction: row;
         padding: 0;
         margin :6px;
-        width: 330px;
+        width: 340px;
         height: 145px;
     }
 }
@@ -490,9 +513,9 @@
 {
     .AsideCarte
     {
-        margin :0px;  
-        width: 500px;
-        min-width: 335px;
+        flex-direction: row;
+        margin :15px;  
+        width: 335px;
         height: 135px;
     }
 }
@@ -530,20 +553,20 @@
 }
 .a7
 {
-    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/4_small/hotelsoleil.jpg) repeat-x ;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/hotelsoleil.jpg) repeat-x ;
     padding-top: 5px;
 }
 .a8
 {
        
-    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/4_small/aucoeur.jpg) repeat-x ;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/aucoeur.jpg) repeat-x ;
     padding-top: 5px;
 
 }
 .a9
 {
        
-    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/4_small/hotelbleu.jpg) repeat-x ;
+    background: url(/C:/Users/matth/Desktop/MaquetteP2/image/hebergements/hotelbleu.jpg) repeat-x ;
     padding-top: 5px;
 
 }
@@ -572,6 +595,25 @@
         margin-bottom: 3px;
     }
 }
+@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
+{
+    .AsideCarteNotation
+    {
+        padding-left: 10px ;
+    }
+    .AsideCarteNotation p 
+    {
+        margin-top: 3px;
+        margin-bottom: 25px;
+    }
+    .AsideCarteNotation h3 
+    {
+        margin-bottom: 3px;
+        margin-top: 10px;
+    }
+}
+
+
 
 @media only screen and (max-device-width : 600px), screen and (max-width: 600px)
 {}
