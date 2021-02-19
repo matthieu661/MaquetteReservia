@@ -615,9 +615,3 @@
 
 
 
-@media only screen and (max-device-width : 600px), screen and (max-width: 600px)
-{}
-@media screen and (min-device-width: 601px) and (max-device-width: 1150px), screen and (min-width: 601px) and (max-width: 1150px)
-{}
-@media screen and (min-width: 1150px)
-{}
