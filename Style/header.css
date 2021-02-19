@@ -39,7 +39,7 @@
         margin: 25px;
         margin-left: 0px !important;
     }
-    #Logo_reservia
+    #Logo_reserviaS
     {
         /*BOX*/
         border: red 1px solid;
@@ -109,7 +109,7 @@
         /*BOX*/
         width: 100%;
     }
-    #recherche
+    #rechercheS
     {
         /*BOX*/
         border: 1px green solid;
@@ -149,7 +149,7 @@
         font-size: 2.9em !important;
         
     }
-    #gps
+    #gpsS
     {   
         /* BOX */
         display: flex;
