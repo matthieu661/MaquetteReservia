@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!--Css-->
+    <link rel="stylesheet" href="Style/main.css">
+    <link rel="stylesheet" href="Style/header.css">
+    <link rel="stylesheet" href="Style/hébergement.css">
+    <link rel="stylesheet" href="Style/activités.css">
+    <link rel="stylesheet" href="Style/footer.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/4aa209d2d4.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@410&display=swap" rel="stylesheet">
+
+    <title>Reservia.com</title>
+</head>
+
+<body>
+    <header>
+        <div id="Box_Header">
+            <!--"conteneur principal"-->
+            <div id="Top">
+                <!--conteneur du Logo et des Ancres-->
+                <div id="Logo">
+                    <img class="Logo_reservia" src="images/logo/Reservia.svg" alt="Logo">
+                </div>
+                <div class="Ancres Inscription"><a id="Lien_inscription" href="#">S'inscrire</a></div>
+                <div class="Ancres"><a id="AncreHebergement" href="#linkH">Hébergements</a></div>
+                <div class="Ancres"><a id="AncreActivités" href="#trichouille">Activités</a></div>
+            </div>
+            <div id="Box_Accroche">
+                <p class="Titre_Accroche">Trouvez votre hébergement pour des vancances de rêve</p>
+                <p class="Normal_accroche">En plein centre ou en pleine nature</p>
+            </div>
+            <div id="Box_Recherche">
+                <form class="recherche" action="/DB_reservia.php">
+                    <label for="Shearch">
+                        <span class="gps"><i class="fas fa-map-marker-alt"></i></span>
+                    </label>
+                    <input type="search" id="Shearch" class="localiser" name="localiser"
+                        placeholder="   Marseille, France">
+                    <button class="Boutton_bleu"><span id="IconRecherche"><i class="fas fa-search"></i></span><span
+                            id="text">Rechercher</span></button>
+                </form>
+            </div>
+
+            <!--Conteneur du titre et de la box filtre-->
+            <div id="Box_Filtres">
+                <!--Titre "FILTRES"-->
+                <div id="TitreFiltre">
+                    <p>Filtres</p>
+                </div>
+                <!-- Les 4 FILTRES :: CLIQUABLE -->
+                <div id="Filtres_conteneur">
+                    <div class="Filtres"><a href="#">
+                            <div class="bulle"><i class="fas fa-money-bill-wave"></i></div>
+                            <div class="bulle2"> Economique</div>
+                        </a>
+                    </div>
+                    <div class="Filtres"><a href="#">
+                            <div class="bulle"><i class="fas fa-child"></i></div>
+                            <div class="bulle2"> Familial</div>
+                        </a>
+                    </div>
+                    <div class="Filtres"><a href="#">
+                            <div class="bulle"><i class="fas fa-heart"></i></div>
+                            <div class="bulle2"> Romantique</div>
+                        </a>
+                    </div>
+                    <div class="Filtres"><a href="#">
+                            <div class="bulle"><i class="fas fa-dog"></i></div>
+                            <div class="bulle2"> Animaux autorisés</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="Box_Bot">
+                <p><i class="fas fa-info-circle"></i></p>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </div>
+    </header>
+</body>
