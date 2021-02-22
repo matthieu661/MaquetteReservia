@@ -1,0 +1,179 @@
+#Box_Sections
+{
+    border: black 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+@media only screen and (max-width : 600px)
+{
+    #Box_Sections
+    {
+    flex-direction: column;
+    }
+}
+aside
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+@media only screen and (max-width : 600px)
+{
+    aside
+    {
+    width: 340px;
+    height: auto;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    aside
+    {
+    margin: 15px;
+    width: 350px;
+    height: auto;
+    }
+}
+@media screen and (min-width: 1150px)
+{
+    aside
+    {
+    width: 30%;
+    height: 100%;
+    margin: 15px;
+    }
+}
+#Titre_Aside
+{
+    display: flex;
+    width: 335px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Carte_Aside
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid green 1px;
+    width: 335px;
+    height: auto;
+    
+}
+.Image_Aside
+{
+    width: 35%; 
+    border: solid black 1px;
+    
+}
+.Notation_Aside
+{
+    width: 60%;
+    height: 135px;
+    border: solid 1px red;
+}
+.Img_aside 
+{
+    height: 135px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#Hebergements
+{
+    border: black 1px solid;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width : 600px)
+{
+    #Hebergements
+    {
+    width: 335px;
+    height: auto;
+    justify-content: center;
+    margin: auto;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    #Hebergements
+    {
+    width: 65%;
+    height: auto;
+    }
+}
+@media screen and (min-width: 1150px)
+{
+    #Hebergements
+    {
+    width: 70%;
+    height: auto;
+    }
+}
+#Box_Cartes_hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Carte_hebergement
+{
+    display: flex;
+    flex-direction: column;
+    border: solid green 1px;
+}
+@media only screen and (max-width : 600px)
+{
+    .Carte_hebergement
+    {
+    width: 335px;
+    height: 200px;
+    margin-bottom: 10px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    .Carte_hebergement
+    {
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+    }
+}
+@media screen and (min-width: 1150px)
+{
+    .Carte_hebergement
+    {
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+    }
+}
+.Image_Hebergement
+{
+    height: 60%;
+    width: 100%;
+}
+.Img_hebergement 
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Notation_Hebergement
+{
+    height: 35%;
+    width: 100%;
+}
+
+
+
+
+
+
