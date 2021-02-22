@@ -1,11 +1,11 @@
 #Box_Sections
 {
     border: black 1px solid;
-    margin-left: 5px;
-    margin-right: 5px;
-    width: auto;
+    
+    width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 @media only screen and (max-width : 600px)
 {
@@ -14,28 +14,50 @@
     flex-direction: column;
     }
 }
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    #Box_Sections
+    {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 1150px)
+{
+    #Box_Sections
+    {
+        justify-content: space-between;
+    }
+}
+
 aside
 {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 5px;
+    border: black 1px solid;
+    width: 100%;
     
 }
 @media only screen and (max-width : 600px)
 {
     aside
     {
-    width: 340px;
+    width: auto;
     height: auto;
+    align-items: center;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1150px)
 {
     aside
     {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 15px;
-    width: 350px;
+    width: 100%;
     height: auto;
+    margin: auto;
     }
 }
 @media screen and (min-width: 1150px)
@@ -53,7 +75,16 @@ aside
     width: 335px;
     justify-content: space-between;
     align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
     
+}
+@media only screen and (max-width : 600px)
+{
+    #Titre_Aside
+    {
+    margin-left: 0;
+    }
 }
 .Carte_Aside
 {
@@ -62,7 +93,18 @@ aside
     border: solid green 1px;
     width: 335px;
     height: auto;
+    margin-bottom: 15px;
     
+}
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    .Carte_Aside
+    {
+        width: 335px !important;
+        height: auto;
+        margin: 15px;
+    
+    }
 }
 .Image_Aside
 {
@@ -82,7 +124,12 @@ aside
     width: 100%;
     object-fit: cover;
 }
-
+#Titre_Hebergements
+{
+    width: 200px;
+    height: auto;
+    margin-left: 5px;
+}
 
 #Hebergements
 {
@@ -95,25 +142,35 @@ aside
 {
     #Hebergements
     {
-    width: 335px;
+    width: auto;
     height: auto;
-    justify-content: center;
-    margin: auto;
+    
+    
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
+@media screen and (min-width: 600px) and (max-width: 950px)
 {
     #Hebergements
     {
-    width: 65%;
-    height: auto;
+        width: 100%;
+        height: auto;
     }
 }
+@media screen and (min-width: 951px) and (max-width: 1149px)
+{
+    #Hebergements
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 1150px)
 {
     #Hebergements
     {
-    width: 70%;
+    order: -1;
+    width: 65%;
     height: auto;
     }
 }
@@ -121,12 +178,16 @@ aside
 {
     display: flex;
     flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    justify-content: center;
 }
 .Carte_hebergement
 {
     display: flex;
     flex-direction: column;
     border: solid green 1px;
+    margin: 20px;
 }
 @media only screen and (max-width : 600px)
 {

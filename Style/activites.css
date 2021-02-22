@@ -1,0 +1,166 @@
+#Box_Activites
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+   
+    
+}
+
+#Titre_Activites
+{
+    width: auto;
+    height: auto;
+}
+#Box_Carte_Activites
+{
+    display: flex;
+    width: auto;
+    height: auto;
+    
+}
+@media only screen and (max-width : 600px)
+{
+    #Box_Carte_Activites
+    {
+    flex-direction: column;
+    align-items: center;
+
+    
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1449px)
+{
+    #Box_Carte_Activites
+    {       
+        width: 100%;
+        height: auto;   
+    }
+}
+@media screen and (min-width: 1450px)
+{
+    #Box_Carte_Activites
+    {       
+        width: auto;
+        height: 600px;
+        margin: 15px; 
+    }
+}
+.Carte_Activites
+{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #e9e9e9 ;
+}
+.Image_Activites
+{
+    width: 100%;
+    height: 80%;
+}
+.Img_Activites
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 1150px), screen and (min-width: 600px) and (max-width: 1150px)
+{
+    .Desktop_box
+    {
+        display: flex;
+        flex-direction: column ;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 50%;
+        height: auto;
+        border: solid 2px red;
+    }
+    .Notation_Activites
+    {
+        height: 50px;
+        width: 100%;
+    }
+    
+    .Position1
+    {   
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille1
+    {
+        height: 400px;
+    }
+
+    .Position2
+    {
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille2
+    {
+        height: 180px;
+    }
+    
+    .Position3
+    {
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille3
+    {
+        height: 135px;
+    }
+
+    .Position4
+    {
+        
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille4
+    {
+        height: 400px;
+    }
+
+    .Position5
+    {
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille5
+    {
+        height: 150px;
+    }
+
+    .Position6
+    {
+        width: 290px;
+        height: auto;
+        justify-content: space-between;
+    }
+    .Taille6
+    {
+        height: 165px;
+    }
+
+}
+@media screen and (min-width: 600px) and (max-width: 1150px)
+{
+    .Position4
+    {
+        order: 2;
+    }
+}
+
