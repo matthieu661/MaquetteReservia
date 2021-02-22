@@ -33,7 +33,7 @@ aside
 {
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    
     border: black 1px solid;
     width: 100%;
     
@@ -45,6 +45,7 @@ aside
     width: auto;
     height: auto;
     align-items: center;
+    background-color: rgb(242, 242, 242);
     }
 }
 @media screen and (min-width: 600px) and (max-width: 1150px)
@@ -58,6 +59,7 @@ aside
     width: 100%;
     height: auto;
     margin: auto;
+    background-color: rgb(242, 242, 242);
     }
 }
 @media screen and (min-width: 1150px)
@@ -86,14 +88,29 @@ aside
     margin-left: 0;
     }
 }
+@media screen and (min-width : 601px) and (max-width : 1130px)
+{
+    #Titre_Aside
+    {
+        box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #e9e9e9 ;
+        border-radius: 20px 20px;
+        justify-content: space-around;
+        background-color: white;
+        height: 140px;
+        margin : 15px;
+    }
+}
 .Carte_Aside
 {
     display: flex;
     justify-content: space-between;
-    border: solid green 1px;
+    align-items: center;
+    border: solid white 3px;
+    border-radius: 20px 20px;
     width: 335px;
     height: auto;
     margin-bottom: 15px;
+    background-color: white;
     
 }
 @media screen and (min-width: 600px) and (max-width: 1150px)
@@ -101,15 +118,16 @@ aside
     .Carte_Aside
     {
         width: 335px !important;
-        height: auto;
-        margin: 15px;
-    
+        height: 135px;
+        margin: 15px;  
     }
 }
 .Image_Aside
 {
-    width: 35%; 
-    border: solid black 1px;
+    display: flex;
+    width: 35%;
+    height: auto; 
+    border-radius: 20px 20px;
     
 }
 .Notation_Aside
@@ -123,10 +141,13 @@ aside
     height: 135px;
     width: 100%;
     object-fit: cover;
+    margin: auto;
+    border-bottom-left-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
 }
 #Titre_Hebergements
 {
-    width: 200px;
+    width: 250px;
     height: auto;
     margin-left: 5px;
 }
@@ -186,8 +207,10 @@ aside
 {
     display: flex;
     flex-direction: column;
-    border: solid green 1px;
+    border: solid white 3px;
     margin: 20px;
+    border-radius: 20px 20px;
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #dddcdc ;
 }
 @media only screen and (max-width : 600px)
 {
@@ -226,6 +249,8 @@ aside
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
 }
 .Notation_Hebergement
 {

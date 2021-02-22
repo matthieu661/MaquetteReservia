@@ -21,7 +21,7 @@
     height: auto;
     
 }
-@media only screen and (max-width : 600px)
+@media only screen and (max-width : 610px)
 {
     #Box_Carte_Activites
     {
@@ -31,7 +31,7 @@
     
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1449px)
+@media screen and (min-width: 610px) and (max-width: 1449px)
 {
     #Box_Carte_Activites
     {       
@@ -43,7 +43,7 @@
 {
     #Box_Carte_Activites
     {       
-        width: auto;
+        width: 100%;
         height: 600px;
         margin: 15px; 
     }
@@ -55,6 +55,7 @@
     width: 335px;
     height: 200px;
     margin: 15px;
+    border-radius: 20px 20px;
     box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #e9e9e9 ;
 }
 .Image_Activites
@@ -67,10 +68,12 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
 }
 
 
-@media screen and (min-width: 1150px), screen and (min-width: 600px) and (max-width: 1150px)
+@media screen and (min-width: 1150px), screen and (min-width: 610px) and (max-width: 1150px)
 {
     .Desktop_box
     {
@@ -78,9 +81,10 @@
         flex-direction: column ;
         flex-wrap: wrap;
         align-items: center;
-        width: 50%;
+        width: 49.5%;
         height: auto;
         border: solid 2px red;
+        
     }
     .Notation_Activites
     {
@@ -90,7 +94,7 @@
     
     .Position1
     {   
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
@@ -101,7 +105,7 @@
 
     .Position2
     {
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
@@ -112,7 +116,7 @@
     
     .Position3
     {
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
@@ -124,7 +128,7 @@
     .Position4
     {
         
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
@@ -135,7 +139,7 @@
 
     .Position5
     {
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
@@ -146,7 +150,7 @@
 
     .Position6
     {
-        width: 290px;
+        width: 285px;
         height: auto;
         justify-content: space-between;
     }
