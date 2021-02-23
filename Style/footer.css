@@ -2,7 +2,7 @@ footer
 {
     background-color: #f2f2f2b2;
     display: flex;
-    width: 100% ;
+    width: auto ;
     height: auto;
     margin-bottom: 30px;
          
@@ -13,6 +13,7 @@ footer
     {
         flex-direction:column;
         margin-top: 30px;
+        margin-right: -5px;
     }
 }
 @media screen and (min-width: 601px)
@@ -20,7 +21,7 @@ footer
     footer
     {
         flex-direction: row;
-        margin-top: 25px;
+        margin-top: 5px;
     }
 }
 .Liste_footer

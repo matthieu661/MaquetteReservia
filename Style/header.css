@@ -1,18 +1,12 @@
 /* #########    BOX_HEADER   ##########*/
-header
-{
-    border: black 1px solid;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+
 @media only screen and (max-width : 600px)
 {
     header
     {
         width: 100%;
         height: auto;
-        margin-left: 0;
-        
+        margin-left: 5px;
     }  
 }
 @media screen and (min-width: 600px) and (max-width: 1150px)
@@ -21,14 +15,17 @@ header
     {
         width: 100%;
         height: auto;
+        margin-left: 10px;
     }  
 }
 @media screen and (min-width: 1150px)
 {
     header
     {
-        width: 100%;
+        width: auto;
         height: auto;
+        margin-left: 50px;
+        
     }  
 }
 /* #########    BOX_HEADER TOP ( LOGO et ANCRES )  ########## */
@@ -57,7 +54,7 @@ header
 }
 .Ancres
 {
-    border: 1px red solid;
+    /*border: 1px red solid;*/
     width: 100%;
     height: auto;
 }
@@ -94,6 +91,21 @@ header
         align-items: center;
     }  
 }
+#Lien_inscription
+{
+    color: #0065fc;
+    font-weight: 600;
+}
+#AncreActivités
+{
+    color: black;
+    font-weight: 600;
+}
+#AncreHebergement
+{
+    color: #0065fc;
+    font-weight: 600;
+}
 .Inscription
 {
     display: flex;
@@ -124,10 +136,7 @@ header
         order: 3;
     }  
 }
-#Logo
-{
-    border: 1px red solid;
-}
+
 @media only screen and (max-width : 600px)
 {
     #Logo
@@ -135,7 +144,7 @@ header
         display: flex;
         justify-content: flex-start;
         width: 49%;
-        height: 60px;
+        height: 50px;
     }  
 }
 @media screen and (min-width: 600px) and (max-width: 1150px)
@@ -145,7 +154,7 @@ header
         display: flex;
         justify-content: flex-start;
         width: 50%;
-        height: 60px;
+        height: 50px;
     }   
 }
 @media screen and (min-width: 1150px)
@@ -159,11 +168,6 @@ header
     }   
 }
 /* #########    BOX_Accroche  ########## */
-#Box_Accroche
-{   
-    border: palegreen 1px solid;
-    
-}
 @media only screen and (max-width : 600px)
 {
     #Box_Accroche
@@ -172,10 +176,7 @@ header
     height: auto;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-    /* X */
-}
+
 @media screen and (min-width: 1150px)
 {
     #Box_Accroche
@@ -189,10 +190,7 @@ header
     font-size: 1.5em;
     font-weight: 900;
 }
-.Normal_accroche
-{
-    /* X */
-}
+
 /* #########    BOX_Recherche  ########## */
 #Box_Recherche
 {
@@ -202,7 +200,7 @@ header
 .recherche
 {
     /*BOX*/
-    border: red 1px solid;
+    /*border: red 1px solid;*/
     display: flex;
     
     align-items: center;
@@ -221,8 +219,15 @@ header
         /*MARGES*/
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 0px;
+        margin-left: 5px;
         margin-right: 15px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 1150px)
+{
+    .recherche
+    {
+        margin-left: 15px;
     }
 }
 @media screen and (min-width: 1150px)
@@ -254,8 +259,7 @@ header
     .gps
     {
         width: 50px !important;
-        height: 50px !important;
-        margin-left:15px ;
+        height: 50px !important;        
         border-bottom-left-radius: 15px 15px;
         border-top-left-radius: 15px 15px;
     }
@@ -266,7 +270,7 @@ header
     .gps
     {
         width: 50px !important;
-        height: 50px !important;
+        height: 60px !important;
     }
 }
 @media screen and (min-width: 1150px)
@@ -453,6 +457,11 @@ header
     #IconRecherche
     {
         font-size: 1.3em ;
+        color: white !important;
+    }
+    .fas fa-search
+    {
+        color: white;
     }
 }
 @media screen and (min-width: 601px) and (max-width: 1150px)
@@ -507,7 +516,7 @@ header
     #Box_Filtres
     {
         flex-direction: row;
-        width: 80%;
+        width: 85%;
         height:60px;
         /*MARGES*/
         margin-left: 15px;
@@ -519,6 +528,9 @@ header
     {
         /*MARGES*/
         margin-left: 15px;
+        /*POLICES*/
+        font-size: 1.2em;
+        font-weight: 600;
     }
 @media screen and (max-width: 600px)
 {
@@ -526,24 +538,13 @@ header
     {
         margin-top: 35px;
         margin-bottom: 5px;
-        /*POLICES*/
-        font-size: 1.2em;
-        font-weight: 600;
     }
     #TitreFiltre p 
     {
         margin: 0;
     }
 }
-@media screen and (min-width: 601px) and (max-width: 1150px)
-{
-    #TitreFiltre
-    {
-        /*POLICES*/
-        font-size: 1.2em;
-        font-weight: 600;
-    }
-}
+
 @media screen and (min-width: 1150px)
 {
     #TitreFiltre
@@ -711,6 +712,7 @@ header
         /*MARGES*/
         padding-left: 15px;
         padding-right: 15px;
+        color: black;
     }
     @media screen and (min-width: 1150px)
     {
@@ -744,11 +746,12 @@ header
         /*BOX*/
         display: flex;
         align-items: center;
-        height: 20%;
+        height: auto;
         width: 100%;
         /*MARGES*/
         padding: 5px;
         margin-bottom: 15px;
+        margin-top: 15px;
         /*POLICES*/
         font-size: 1em; 
         
@@ -757,12 +760,13 @@ header
     {
         /*BOX*/
         display: flex;
-        align-self: flex-start;
         height: 15%;
         width: auto;
         /*MARGES*/
         margin-left: 10px;
-        margin-right: 10px;    
+        margin-right: 10px; 
+        margin-bottom: 0px; 
+        margin-top: 0px;  
     }
     @media screen and (max-width: 600px)
     {
@@ -792,15 +796,3 @@ header
 
 
 
-@media only screen and (max-width : 600px)
-{
-
-}
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-
-}
-@media screen and (min-width: 1150px)
-{
-
-}

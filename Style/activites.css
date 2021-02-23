@@ -4,15 +4,22 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    border: solid 1px black;
-   
-    
+    margin-top: 20px;
+      
 }
 
 #Titre_Activites
 {
     width: auto;
     height: auto;
+    margin-left: 5%;
+}
+@media screen and (min-width: 1401px)
+{
+    #Titre_Activites
+    {
+        margin-left: 60px;
+    }
 }
 #Box_Carte_Activites
 {
@@ -21,17 +28,15 @@
     height: auto;
     
 }
-@media only screen and (max-width : 610px)
+@media only screen and (max-width : 650px)
 {
     #Box_Carte_Activites
     {
     flex-direction: column;
     align-items: center;
-
-    
     }
 }
-@media screen and (min-width: 610px) and (max-width: 1449px)
+@media screen and (min-width: 610px) and (max-width: 1400px)
 {
     #Box_Carte_Activites
     {       
@@ -39,13 +44,13 @@
         height: auto;   
     }
 }
-@media screen and (min-width: 1450px)
+@media screen and (min-width: 1401px)
 {
     #Box_Carte_Activites
     {       
         width: 100%;
-        height: 600px;
-        margin: 15px; 
+        height: 600px; 
+        justify-content: flex-end;  
     }
 }
 .Carte_Activites
@@ -54,7 +59,7 @@
     flex-direction: column;
     width: 335px;
     height: 200px;
-    margin: 15px;
+    margin-top: 25px;
     border-radius: 20px 20px;
     box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #e9e9e9 ;
 }
@@ -73,28 +78,33 @@
 }
 
 
-@media screen and (min-width: 1150px), screen and (min-width: 610px) and (max-width: 1150px)
+@media screen and (min-width: 1150px), screen and (min-width: 650px) and (max-width: 1150px)
 {
     .Desktop_box
     {
         display: flex;
         flex-direction: column ;
         flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
-        width: 49.5%;
+        width: 49%;
         height: auto;
-        border: solid 2px red;
-        
     }
     .Notation_Activites
     {
+        display: flex;
+        align-items: center;
         height: 50px;
         width: 100%;
     }
-    
+    .Notation_Activites p
+    {
+        margin-left: 15px;
+        color: black;
+    }
     .Position1
     {   
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }
@@ -105,7 +115,7 @@
 
     .Position2
     {
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }
@@ -116,7 +126,7 @@
     
     .Position3
     {
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }
@@ -128,7 +138,7 @@
     .Position4
     {
         
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }
@@ -139,7 +149,7 @@
 
     .Position5
     {
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }
@@ -150,7 +160,7 @@
 
     .Position6
     {
-        width: 285px;
+        width: 300px;
         height: auto;
         justify-content: space-between;
     }

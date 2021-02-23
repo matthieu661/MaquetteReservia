@@ -1,265 +1,293 @@
-#Box_Sections
-{
-    border: black 1px solid;
+#Box_Sections {
     
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 15px;
 }
-@media only screen and (max-width : 600px)
-{
-    #Box_Sections
-    {
-    flex-direction: column;
+
+@media only screen and (max-width: 600px) {
+    #Box_Sections {
+        flex-direction: column;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-    #Box_Sections
-    {
-        justify-content: space-between;
-    }
-}
-@media screen and (min-width: 1150px)
-{
-    #Box_Sections
-    {
+
+@media screen and (min-width: 600px) and (max-width: 1150px) {
+    #Box_Sections {
         justify-content: space-between;
     }
 }
 
-aside
-{
+@media screen and (min-width: 1150px) {
+    #Box_Sections {
+        justify-content: space-between;
+    }
+}
+
+aside {
     display: flex;
     flex-direction: column;
     
-    border: black 1px solid;
     width: 100%;
-    
 }
-@media only screen and (max-width : 600px)
-{
-    aside
-    {
-    width: auto;
-    height: auto;
-    align-items: center;
-    background-color: rgb(242, 242, 242);
+
+@media only screen and (max-width: 600px) {
+    aside {
+        width: auto;
+        height: auto;
+        align-items: center;
+        background-color: rgb(242, 242, 242);
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-    aside
-    {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 15px;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    background-color: rgb(242, 242, 242);
+
+@media screen and (min-width: 600px) and (max-width: 1150px) {
+    aside {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px;
+        width: 100%;
+        height: auto;
+        margin: auto;
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px 20px;
     }
 }
-@media screen and (min-width: 1150px)
-{
-    aside
-    {
-    width: 30%;
-    height: 100%;
-    margin: 15px;
+
+@media screen and (min-width: 1150px) {
+    aside {
+        width: 30%;
+        height: auto;
+        margin: 15px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        align-items: center;
+        background-color: rgb(242, 242, 242);
+        border-radius: 20px 20px;
     }
 }
-#Titre_Aside
-{
+
+#Titre_Aside {
     display: flex;
     width: 335px;
     justify-content: space-between;
     align-items: center;
     margin-right: 15px;
     margin-left: 15px;
-    
+    margin-top: 20px;
 }
-@media only screen and (max-width : 600px)
-{
-    #Titre_Aside
-    {
-    margin-left: 0;
+
+@media only screen and (max-width: 600px) {
+    #Titre_Aside {
+        margin-left: 0;
     }
 }
-@media screen and (min-width : 601px) and (max-width : 1130px)
-{
-    #Titre_Aside
-    {
-        box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #e9e9e9 ;
+
+@media screen and (min-width: 601px) and (max-width: 1130px) {
+    #Titre_Aside {
+        box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em #e9e9e9;
         border-radius: 20px 20px;
         justify-content: space-around;
         background-color: white;
         height: 140px;
-        margin : 15px;
+        margin: 15px;
     }
 }
-.Carte_Aside
-{
+
+.Carte_Aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid white 3px;
+    border: solid white 4px;
     border-radius: 20px 20px;
     width: 335px;
-    height: auto;
-    margin-bottom: 15px;
+    height: 135px;
+    margin-bottom: 20px;
     background-color: white;
-    
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-    .Carte_Aside
-    {
-        width: 335px !important;
-        height: 135px;
-        margin: 15px;  
+
+@media only screen and (max-width: 600px) {
+    .Carte_Aside {
+        margin-bottom: 15px;
+
     }
 }
-.Image_Aside
-{
+
+@media screen and (min-width: 601px) and (max-width: 1150px) {
+    .Carte_Aside {
+        width: 335px !important;
+        height: 135px;
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 1151px) {
+    .Carte_Aside {
+        margin-bottom: 30px !important;
+        margin-top: 15px;
+    }
+}
+
+.Image_Aside {
     display: flex;
     width: 35%;
-    height: auto; 
+    height: 100%;
     border-radius: 20px 20px;
-    
 }
-.Notation_Aside
-{
+
+.Notation_Aside {
     width: 60%;
     height: 135px;
-    border: solid 1px red;
+    color: black;
 }
-.Img_aside 
-{
-    height: 135px;
+
+.Notation_Aside p {
+    margin-top: 20px;
+}
+
+.Normal_Notation {
+    margin-top: 5px !important;
+}
+
+.Img_aside {
+    height: 100%;
     width: 100%;
     object-fit: cover;
     margin: auto;
     border-bottom-left-radius: 20px 20px;
     border-top-left-radius: 20px 20px;
 }
-#Titre_Hebergements
-{
+
+#Titre_Hebergements {
     width: 250px;
     height: auto;
-    margin-left: 5px;
+    margin-left: 5%;
+    margin-top: 20px;
 }
 
-#Hebergements
-{
-    border: black 1px solid;
+#Hebergements {
+    
     height: auto;
     display: flex;
     flex-direction: column;
-}
-@media only screen and (max-width : 600px)
-{
-    #Hebergements
-    {
-    width: auto;
-    height: auto;
+    background-color: rgb(242, 242, 242);
     
     
-    }
 }
-@media screen and (min-width: 600px) and (max-width: 950px)
-{
-    #Hebergements
-    {
-        width: 100%;
+
+@media only screen and (max-width: 600px) {
+    #Hebergements {
+        width: auto;
         height: auto;
-    }
-}
-@media screen and (min-width: 951px) and (max-width: 1149px)
-{
-    #Hebergements
-    {
-        width: 100%;
-        height: auto;
+        background-color: white;
     }
 }
 
-@media screen and (min-width: 1150px)
-{
-    #Hebergements
-    {
-    order: -1;
-    width: 65%;
-    height: auto;
+@media screen and (min-width: 600px) and (max-width: 950px) {
+    #Hebergements {
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px;
+        margin-top: 15px;
     }
 }
-#Box_Cartes_hebergements
-{
+
+@media screen and (min-width: 951px) and (max-width: 1149px) {
+    #Hebergements {
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    #Hebergements {
+        order: -1;
+        width: 63%;
+        height: auto;
+        margin-left: 45px;
+        border-radius: 20px 20px;
+    }
+}
+
+#Box_Cartes_hebergements {
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
     height: auto;
     justify-content: center;
 }
-.Carte_hebergement
-{
+
+.Carte_hebergement {
     display: flex;
     flex-direction: column;
-    border: solid white 3px;
+    border: solid white 4px;
+    background-color: white;
     margin: 20px;
     border-radius: 20px 20px;
-    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em  #dddcdc ;
+    box-shadow: 1px 1px 0.8em #e9e9e9, -1px -1px 0.8em #dddcdc;
 }
-@media only screen and (max-width : 600px)
-{
-    .Carte_hebergement
-    {
-    width: 335px;
-    height: 200px;
-    margin-bottom: 10px;
+
+@media only screen and (max-width: 600px) {
+    .Carte_hebergement {
+        width: 335px;
+        height: 200px;
+        margin-bottom: 10px;
     }
 }
-@media screen and (min-width: 600px) and (max-width: 1150px)
-{
-    .Carte_hebergement
-    {
-    width: 250px;
-    height: 200px;
-    margin: 15px;
+
+@media screen and (min-width: 600px) and (max-width: 1150px) {
+    .Carte_hebergement {
+        width: 250px;
+        height: 200px;
+        margin: 15px;
     }
 }
-@media screen and (min-width: 1150px)
-{
-    .Carte_hebergement
-    {
-    width: 250px;
-    height: 200px;
-    margin: 15px;
+
+@media screen and (min-width: 1150px) {
+    .Carte_hebergement {
+        width: 250px;
+        height: 200px;
+        margin: 15px;
     }
 }
-.Image_Hebergement
-{
+
+.Image_Hebergement {
     height: 60%;
     width: 100%;
 }
-.Img_hebergement 
-{
+
+.Img_hebergement {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 20px 20px;
     border-top-right-radius: 20px 20px;
 }
-.Notation_Hebergement
-{
-    height: 35%;
-    width: 100%;
+
+.Notation_Hebergement {
+    height: auto;
+    width: auto;
+    padding-left: 15px;
+    color: black;
+    
+}
+.Notation_Hebergement p {
+    margin-top: 5px;
+    margin-bottom: 1px;
 }
 
+.Normal_hebergement {
+    padding-top: 30px;
+    margin-left: 5%;
+    font-size: 1.1em;
+    font-weight: 600;
+}
 
-
-
-
-
+@media only screen and (min-width: 600px) {
+    .Normal_hebergement {
+        padding-top: 10px;
+    }
+}
