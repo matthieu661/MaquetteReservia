@@ -2,7 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     max-width: 1500px;
-    min-width: 380px;
+    min-width: 370px;
     height: auto;
     margin: auto;
 }
@@ -22,8 +22,4 @@ a {
     margin-bottom: 5px;
 }
 
-
-a {
-    text-decoration: none;
-}
 
