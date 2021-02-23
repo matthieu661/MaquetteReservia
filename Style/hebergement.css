@@ -141,6 +141,9 @@ aside {
     height: 135px;
     color: black;
 }
+.fa-star {
+  color: #0065fc ;
+}
 
 .Notation_Aside p {
     margin-top: 20px;
