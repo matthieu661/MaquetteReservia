@@ -1,5 +1,4 @@
-body
-{
+body {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     max-width: 1500px;
@@ -7,27 +6,30 @@ body
     height: auto;
     margin: auto;
 }
-a
-{
+
+a {
     text-decoration: none;
 }
-.Titre_Notation
-{
+
+.Titre_Notation {
     font-size: 1.2em;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 7px;
 }
-.Normal_Notation
-{
+
+.Normal_Notation {
     margin-bottom: 5px;
 }
-.fa-star
-{
+
+.fa-star {
     color: #0065FC;
 }
-a
+.far 
 {
+    color: white;
+}
+a {
     text-decoration: none;
 }
 
