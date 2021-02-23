@@ -129,10 +129,11 @@
         width: 300px;
         height: auto;
         justify-content: space-between;
+        margin-top: 50px;
     }
     .Taille3
     {
-        height: 135px;
+        height: 120px;
     }
 
     .Position4
@@ -163,10 +164,11 @@
         width: 300px;
         height: auto;
         justify-content: space-between;
+        margin-top: 50px;
     }
     .Taille6
     {
-        height: 165px;
+        height: 145px;
     }
 
 }
