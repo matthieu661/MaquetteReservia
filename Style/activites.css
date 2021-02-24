@@ -7,6 +7,15 @@
     margin-top: 20px;
       
 }
+@media only screen and (max-width : 650px)
+{
+    #Box_Activites
+    {
+        width: auto;
+        align-items: center;
+        margin: auto;
+    }
+}
 
 #Titre_Activites
 {
@@ -76,6 +85,23 @@
     object-fit: cover;
     border-top-left-radius: 20px 20px;
     border-top-right-radius: 20px 20px;
+}
+
+@media only screen and (max-width: 650px)
+{
+    .Notation_Activites
+    {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 20px;
+    }
+    .Notation_Activites p
+    {
+        margin-top: 30px;
+        margin-left: 15px;
+        color: black !important;
+    }
 }
 
 
