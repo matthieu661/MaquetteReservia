@@ -150,13 +150,18 @@ aside {
 }
 
 .Notation_Aside p {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .Normal_Notation {
     margin-top: 5px !important;
+    
 }
-
+.Notation_Aside .Normal_Notation
+{
+    margin-bottom: 25px !important;
+}
 .Img_aside {
     height: 100%;
     width: 100%;
