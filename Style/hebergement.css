@@ -103,7 +103,7 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: solid white 4px;
+    padding: 4px;
     border-radius: 20px 20px;
     width: 335px;
     height: 135px;
@@ -235,7 +235,7 @@ aside {
 .Carte_hebergement {
     display: flex;
     flex-direction: column;
-    border: solid white 4px;
+    padding: 4px;
     background-color: white;
     margin: 20px;
     border-radius: 20px 20px;

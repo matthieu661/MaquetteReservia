@@ -224,7 +224,7 @@
     /* BOX */
     display: flex;
     background-color: #f2f2f2b2;
-    border: #f2f2f2b2 1px solid;
+    /*border: #f2f2f2b2 1px solid;*/
     align-items: center;
     justify-content: center;
     border-bottom-left-radius: 20px 20px;
@@ -234,7 +234,7 @@
 @media screen and (max-width: 600px) {
     .gps {
         width: 50px !important;
-        height: 50px !important;
+        height: 52px !important;
         border-bottom-left-radius: 15px 15px;
         border-top-left-radius: 15px 15px;
     }
@@ -250,7 +250,7 @@
 @media screen and (min-width: 1150px) {
     .gps {
         width: 50px;
-        height: 50px;
+        height: 51px;
     }
 }
 
@@ -342,8 +342,8 @@
 .Boutton_bleu {
     /*BOX*/
     background-color: #0065fc;
-    border: #0065fc;
     border-radius: 15px;
+    border: none;
     /*MARGES*/
     margin-left: -15px;
     margin-right: 20px;
@@ -370,7 +370,6 @@
     .Boutton_bleu {
         height: 50px;
         width: 150px;
-        border: #0065fc;
         border-top-right-radius: 15px 15px;
         border-bottom-right-radius: 15px 15px;
         border-bottom-left-radius: 0;
@@ -597,27 +596,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #deebff;
+    /*border: 3px solid #deebff;*/
     /*STYLE*/
     border-radius: 50%;
     background-color: #deebff;
     /*MARGES*/
     padding: 10px;
-    margin-left: -10px;
+    margin-left: -5px;
     margin-right: 0px;
 }
 
 @media screen and (max-width: 600px) {
     .bulle {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1150px) {
     .bulle {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 }
 
@@ -660,6 +659,11 @@
 @media screen and (max-width: 600px) {
     .fa-dog, .fa-heart, .fa-child, .fa-money-bill-wave {
         font-size: 1em !important;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .fa-dog, .fa-heart, .fa-child, .fa-money-bill-wave {
+        font-size: 0.9em !important;
     }
 }
 
